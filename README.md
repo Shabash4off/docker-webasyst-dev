@@ -10,7 +10,7 @@ Special docker config for comfortable webasyst app develop
 ## Quickstart
 ```bash
 # 1. Clone this repo
-git clone https://github.com/Shabash4off/docker-webasyst-dev webasyst
+git clone https://github.com/Shabash4off/webasyst-dev webasyst
 cd webasyst
 
 # 2. Clone webasyst-framework repo as engine
