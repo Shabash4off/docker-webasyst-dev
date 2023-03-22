@@ -2,7 +2,7 @@
 Special docker config for comfortable webasyst app develop  
   
 ## Contains
-- php-fpm 5.6
+- php-fpm 7.4
 - mysql 5.7.36
 - nginx (lastest)
 - phpmyadmin (latest)
@@ -22,8 +22,8 @@ git clone https://github.com/webasyst/shop-script.git engine/wa-apps/shop
 # 3. Open engine folder for writing
 sudo chmod 777 -R engine/
 
-# 4. Rename .env.sample to .env
-mv .env.sample .env
+# 4. Create .env from .env.sample
+cp .env.sample .env
 
 # 5. Start docker containers
 sudo docker-compose up -d
