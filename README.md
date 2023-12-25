@@ -1,4 +1,4 @@
-# Docker Webasyst DEV | PHP 5.6, MySQL 5.7
+# Docker Webasyst DEV | PHP 7.4, MySQL 5.7
 Special docker config for comfortable webasyst app develop  
   
 ## Contains
