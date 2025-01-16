@@ -43,9 +43,9 @@ clone_repositories() {
 
 # Function to set proper permissions
 set_permissions() {
-    echo "Setting proper permissions..."
-    sudo chown -R www-data:www-data "$PROJECT_ROOT/engine"
-    sudo chmod -R 775 "$PROJECT_ROOT/engine"
+    echo "Setting TOO OPEN permissions..."
+    echo "WARN: PERMISIONS FOR $PROJECT_ROOT/engine IS NOW 777 BE AWARE!!!"
+    sudo chmod -R 777 "$PROJECT_ROOT/engine"
 }
 
 # Main setup function
